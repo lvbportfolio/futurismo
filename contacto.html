@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul>
+                <li><a href="vanguardia.html">VANGUARDIA</a></li>
+                <li><a href="cronologia.html">CRONOLOGÍA</a></li>
+                <li><a href="artistas.html">ARTISTAS</a></li>
+                <li><a href="galeria.html">GALERÍA</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
+        </div>
+        <div class="hamburger-menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="title-container">
+            <div class="circle title-circle c-left"></div>
+            <h1 class="section-title">CONTACTO</h1>
+            <div class="circle title-circle c-right"></div>
+        </div>
+        <section class="contact-section">
+            <div class="contact-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comentario:</label>
+                        <textarea id="comment" name="comment" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar Comentario</button>
+                </form>
+                <div class="contact-image">
+                    <img src="img/foto2.jpg" alt="Futurismo">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Futurismo | Todos los derechos reservados.</p>
+        <a href="https://www.instagram.com/lvbportfolio" target="_blank">
+            <img src="img/instagram.svg" alt="Instagram" class="instagram-logo">
+        </a>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
